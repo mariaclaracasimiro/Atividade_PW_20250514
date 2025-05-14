@@ -13,6 +13,7 @@ templates = Jinja2Templates(directory="templates")
 
 produto_repo.criar_tabela()
 cliente_repo.criar_tabela()
+categoria_repo.criar_tabela()
 
 
 @app.get("/")
